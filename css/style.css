@@ -56,6 +56,34 @@ table {
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/pt_sans-web-regular.eot');
+	src: url('../fonts/pt_sans-web-regular.eot') format('embedded-opentype'),  url('../fonts/pt_sans-web-regular.woff') format('woff'),  url('../fonts/pt_sans-web-regular.ttf') format('truetype'),  url('../fonts/pt_sans-web-regular.svg#PTSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/pt_sans-web-bold.eot');
+	src: url('../fonts/pt_sans-web-bold.eot') format('embedded-opentype'),  url('../fonts/pt_sans-web-bold.woff') format('woff'),  url('../fonts/pt_sans-web-bold.ttf') format('truetype'),  url('../fonts/pt_sans-web-bold.svg#PTSansBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/pt_sans-web-italic.eot');
+	src: url('../fonts/pt_sans-web-italic.eot') format('embedded-opentype'),  url('../fonts/pt_sans-web-italic.woff') format('woff'),  url('../fonts/pt_sans-web-italic.ttf') format('truetype'),  url('../fonts/pt_sans-web-italic.svg#PTSansItalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/pt_sans-web-bolditalic.eot');
+	src: url('../fonts/pt_sans-web-bolditalic.eot') format('embedded-opentype'),  url('../fonts/pt_sans-web-bolditalic.woff') format('woff'),  url('../fonts/pt_sans-web-bolditalic.ttf') format('truetype'),  url('../fonts/pt_sans-web-bolditalic.svg#PTSansBoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
 h1 {
 	font-size: 36px;
 	font-weight: bold;
@@ -94,8 +122,14 @@ h5 {
 b {
 	font-weight: bold;
 }
+i {
+	font-style: italic;
+}
 .pt-sans-narrow {
 	font-family: 'PTSansNarrow';
+}
+.pt-sans {
+	font-family: 'PTSans';
 }
 .droid-sans {
 	font-family: 'DroidSans';
